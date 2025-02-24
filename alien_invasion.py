@@ -1,6 +1,7 @@
 import sys
 from time import sleep
 import pygame
+import pygame.mixer
 import random
 
 from settings import Settings
@@ -33,6 +34,7 @@ class AlienInvasion:
     def __init__(self):
         """Initialize the game and create game resources."""
         pygame.init()
+        pygame.mixer.init()
         self.clock = pygame.time.Clock()
         self.settings = Settings()
         self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
@@ -72,6 +74,11 @@ class AlienInvasion:
 
     def run_game(self):
         """Start the main loop for the game."""
+        music_path = r"C:\Users\Luiz Gustavo\Desktop\alien_invasion\sounds\Hans Zimmer - Interstellar (Space Sounds).mp3"
+    
+        pygame.mixer.music.load(music_path)  
+        pygame.mixer.music.set_volume(0.5)  # Ajuste o volume (0.0 a 1.0)
+        pygame.mixer.music.play(-1)  # "-1" faz a música tocar infinitamente
         while True:
             self._check_events()
 
