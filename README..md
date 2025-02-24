@@ -1,6 +1,6 @@
 # Alien Invasion
 
-![Alien Invasion Screenshot](screenshot.png) <!-- Adicione uma imagem do jogo aqui, se possível -->
+
 
 **Alien Invasion** é um jogo clássico de invasão alienígena desenvolvido em Python usando a biblioteca Pygame. O objetivo do jogo é destruir ondas de aliens enquanto protege sua nave de ataques inimigos.
 
@@ -41,5 +41,30 @@ Movimentação: Use as setas do teclado (← → ↑ ↓) para mover a nave.
 Atirar: Pressione a barra de espaço para disparar projéteis.
 
 Objetivo: Destrua todos os aliens antes que eles cheguem à parte inferior da tela.
+
+
+O projeto está organizado da seguinte forma:
+
+Copy
+alien-invasion/
+├── alien_invasion.py       # Arquivo principal do jogo
+├── settings.py             # Configurações do jogo
+├── ship.py                 # Classe da nave do jogador
+├── bullet.py               # Classe dos projéteis
+├── alien.py                # Classe dos aliens
+├── game_stats.py           # Controle de estatísticas do jogo
+├── scoreboard.py           # Exibição da pontuação e vidas
+├── button.py               # Botões para o menu do jogo
+├── images/                 # Pasta com imagens do jogo
+│   ├── ship.bmp            # Imagem da nave
+│   ├── alien.bmp           # Imagem do alien
+│   └── background.bmp      # Imagem de fundo (opcional)
+└── README.md               # Este arquivo
+Personalização
+Você pode personalizar o jogo alterando os seguintes arquivos:
+
+settings.py: Ajuste a velocidade do jogo, número de vidas, cores, etc.
+
+images/: Substitua as imagens da nave, aliens e fundo para criar seu próprio estilo.
 
 Vidas: Você tem um número limitado de vidas. Cuidado com os ataques dos aliens!
