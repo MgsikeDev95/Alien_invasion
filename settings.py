@@ -35,17 +35,17 @@ class Settings:
         """Inicializa as configurações que mudam durante o jogo."""
         if difficulty == 'easy':
             # Fácil: Mais rápido (como o Médio atual)
-            self.ship_speed = 2.0  # Aumenta a velocidade da nave
+            self.ship_speed = 3.0  # Aumenta a velocidade da nave
             self.bullet_speed = 2.0  # Aumenta a velocidade dos projéteis
             self.alien_speed = 1.0  # Aumenta a velocidade dos alienígenas
         elif difficulty == 'medium':
             # Médio: Mais difícil (como o Difícil atual)
-            self.ship_speed = 2.5  # Aumenta a velocidade da nave
+            self.ship_speed = 4.0  # Aumenta a velocidade da nave
             self.bullet_speed = 2.5  # Aumenta a velocidade dos projéteis
             self.alien_speed = 1.5  # Aumenta a velocidade dos alienígenas
         elif difficulty == 'hard':
             # Difícil: Ainda mais difícil
-            self.ship_speed = 3.0  # Aumenta a velocidade da nave
+            self.ship_speed = 5.0  # Aumenta a velocidade da nave
             self.bullet_speed = 3.0  # Aumenta a velocidade dos projéteis
             self.alien_speed = 2.0  # Aumenta a velocidade dos alienígenas
 
