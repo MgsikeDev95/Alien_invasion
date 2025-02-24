@@ -2,15 +2,15 @@
 
 
 
-**Alien Invasion** é um jogo clássico de invasão alienígena desenvolvido em Python usando a biblioteca Pygame. O objetivo do jogo é destruir ondas de aliens enquanto protege sua nave de ataques inimigos.
+Alien Invasion é um jogo clássico de invasão alienígena desenvolvido em Python usando a biblioteca Pygame. O objetivo do jogo é destruir ondas de aliens enquanto protege sua nave de ataques inimigos.
 
 ---
 
-## Como Executar
+ Como Executar
 
 Siga estas instruções para rodar o jogo no seu computador.
 
-### Pré-requisitos
+ Pré-requisitos
 
 Certifique-se de ter o Python instalado. Você pode baixá-lo em [python.org](https://www.python.org/).
 
