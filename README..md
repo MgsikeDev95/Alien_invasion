@@ -5,36 +5,52 @@
 Alien Invasion é um jogo clássico de invasão alienígena desenvolvido em Python usando a biblioteca Pygame. O objetivo do jogo é destruir ondas de aliens enquanto protege sua nave de ataques inimigos.
 
 ---
+asso 1: Acesse o Repositório no GitHub
+Abra o seu navegador e vá para o endereço do repositório: https://github.com/MgsikeDev95/Alien_invasion/.
 
- Como Executar
+Passo 2: Baixe o Código-Fonte
+No repositório, clique no botão verde "Code" (Código) no canto superior direito da página.
 
-Siga estas instruções para rodar o jogo no seu computador.
+No menu que aparece, selecione "Download ZIP". Isso fará o download de um arquivo ZIP contendo todo o código-fonte do jogo.
 
- Pré-requisitos
+Passo 3: Extraia o Arquivo ZIP
+Após o download, localize o arquivo ZIP no seu computador (geralmente na pasta "Downloads").
 
-Certifique-se de ter o Python instalado. Você pode baixá-lo em [python.org](https://www.python.org/).
+Clique com o botão direito no arquivo ZIP e selecione "Extrair Tudo" (ou algo similar, dependendo do seu sistema operacional).
+
+Escolha um local para extrair os arquivos e clique em "Extrair".
+
+Passo 4: Instale o Python
+
+ Você pode baixá-lo em [python.org](https://www.python.org/).
 
 Além disso, instale a biblioteca Pygame:
 
 ```bash
 pip install pygame
 
-Passos para Executar o Jogo
-Clone este repositório:
+Passo 5: Instale as Dependências
+Abra o terminal ou prompt de comando no seu computador.
+
+Navegue até a pasta onde você extraiu os arquivos do jogo. Por exemplo, se você extraiu os arquivos para a pasta Downloads/Alien_invasion, você pode usar o comando:
 
 bash
 Copy
-git clone https://github.com/seu-usuario/alien-invasion.git
-Navegue até a pasta do projeto:
+cd Downloads/Alien_invasion
 
-bash
-Copy
-cd alien-invasion
-Execute o jogo:
+Passo 6: Execute o Jogo
+Após instalar as dependências, você pode executar o jogo. Procure pelo arquivo principal do jogo, que geralmente tem um nome alien_invasion.py.
+
+Execute o arquivo usando o Python:
+
 
 bash
 Copy
 python alien_invasion.py
+
+
+
+
 Como Jogar
 Movimentação: Use as setas do teclado (← → ↑ ↓) para mover a nave.
 
