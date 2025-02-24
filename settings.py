@@ -9,7 +9,7 @@ class Settings:
         self.bg_color = (0, 0, 0)  # Fundo preto
 
         # Configurações da nave
-        self.ship_speed = 1.5  # Velocidade inicial da nave
+        self.ship_speed = 15  # Velocidade inicial da nave
         self.ship_limit = 3  # Número de vidas do jogador
 
         # Configurações dos projéteis
